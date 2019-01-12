@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Name                :-"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:text="Addresh"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="110dp"
+        android:text="Qualifications"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:text="Dob"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv4"
+        android:layout_alignStart="@+id/tv4"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/E_mail"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="230dp"
+        android:text="@string/Mobile"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="show"
+        android:shadowColor="@color/design_default_color_primary"
+        android:text="@string/submit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHighlight="@color/design_default_color_primary"
+        android:textColorHint="@color/design_default_color_primary_dark"
+        android:textColorLink="@color/design_default_color_primary_dark" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="132dp"
+        android:text="@string/Shivank_chauhan"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv7"
+        android:layout_alignBottom="@+id/tv3"
+        android:text="@string/Graduate"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv7"
+        android:layout_alignTop="@+id/tv4"
+        android:text="@string/_04_07_1997"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv7"
+        android:layout_alignTop="@+id/tv5"
+        android:text="@string/shivank_chauhan_mca18_gla_ac_in"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv7"
+        android:layout_alignBottom="@+id/tv2"
+        android:text="@string/Dhlopur"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv7"
+        android:layout_alignTop="@+id/tv6"
+        android:text="@string/_9694159338"
+        android:textStyle="bold" />
+
+</RelativeLayout>
